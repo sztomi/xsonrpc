@@ -17,7 +17,7 @@ add_library(xsonrpc STATIC
   xmlwriter.cpp
 )
 
-install(TARGETS xsonrpc LIBRARY DESTINATION "lib")
+install(TARGETS xsonrpc ARCHIVE DESTINATION "lib")
 
 target_include_directories(xsonrpc BEFORE PRIVATE
   "${PROJECT_SOURCE_DIR}/include/xsonrpc")
