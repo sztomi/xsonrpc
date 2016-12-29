@@ -1,4 +1,4 @@
-add_library(xsonrpc SHARED
+add_library(xsonrpc STATIC
   ${TINYXML2_SOURCE}
 
   client.cpp
